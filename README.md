@@ -1,68 +1,116 @@
-# Tichi App - QA Automation
+# Tichi App - QA Testing Assignment
 
 ## Assignment
 
-QA Intern Technical Assignment for Tichi Application.
+QA Intern Technical Assignment for Tichi Web Application.
 
-**App:** https://tichi-app-webapp-stage.web.app
+**Application:** https://tichi-app-webapp-stage.web.app
 
 ---
 
-## Tasks Completed
+## Task 1: Manual Test Case Creation
 
-### Task 1: Test Case Creation
-- **54 test cases** (Login: 23, Signup: 31)
-- Coverage: I explore the website and test the functionalities of the Sign Up and Login modules. I had covered most of the happy, negative and edge cases.
+- Created **56 Manual Test Cases**
+- Tested Login and Sign Up functionalities
+- Covered form validation, input fields, navigation, error messages, password validation, browser behavior and different user scenarios.
 - Document: `Katomaran_test_case.xlsx`
 
-### Task 2: Defect Reporting
-- **3 defects found and documented:**
-  - DEF-001: Invalid email format accepted
-  - DEF-002: Deleted account can be recreated
-  - DEF-003: Password rules not enforced
-- Document: `Defect_Report.pdf`
+---
 
-### Task 3: Automation (Completed)
-- **11 automated test scripts** using Playwright + TypeScript
-- Login tests, Signup tests, Defect validation
-- Framework: Page Object Model (POM)
+## Task 2: Defect Reporting
+
+- Identified and documented **6 Defects**
+- Included Test Case ID, Defect ID, Steps to Reproduce, Expected Result, Actual Result, Severity, Priority and Screenshot.
+- Document: `Defect_Report.docx`
 
 ---
 
-## How to Run Tests
+## Task 3: Automation Testing
+
+- Automated 10 Test Cases using Playwright with TypeScript.
+- Included Login, Sign Up and Defect Validation scenarios.
+- 3 automation scripts were created to validate the reported defects.
+- Source Code: `Katomaran_QA.zip`
+- The Automation test scripts are seperated as:
+     1. Login/
+         |_Login page test files
+     2. Sign Up/
+         |_Sign up test files.
+
+  
+### Steps to Run the Test Scripts
+
+1. Download and extract the `Katomaran_QA.zip` file.
+2. Open the `Katomaran_QA` folder in Visual Studio Code or any IDE.
+3. Open the terminal in the project folder.
+4. Install the required packages:
 
 ```bash
 npm install
 npm install @playwright/test
+npx playwright install
+```
 
-# Run tests (single worker - stable)
+
+---
+
+
+## Automation Execution Report
+-Document:  `Automation_execution.report.zip`
+-Verify the file for automation test report which covers the passed and failed tests.
+-Download the zip file and click the index.html for the execution report.
+
+## How to Run the automation script
+
+```bash
+npm install
+npm install @playwright/test
+choose the required options.
+
+# Run all tests(//cross browser testing)
 npx playwright test --workers=1
 
 # Run with browser visible
-npx playwright test --headed
+ 1. Go to the playwright.config.ts
+ 2. Change: use: {
+    headless: false,
+    trace: 'on-first-retry',
+  },
 
-# View report
+# View HTML Report
 npx playwright show-report
 ```
 
----
-
-## Test Results
-
-- Total: 11 tests
-- Pass: 8 ✅
-- Fail: 3 ❌ (Intentional - defects documented)
-- Duration: 2-3 minutes
 
 ---
 
-## Deliverables
-
-- ✅ Test Cases Document
-- ✅ Defect Report
-- ✅ Automation Source Code
-- ✅ Execution Report
-
----
 
 ## Project Structure
+```
+Project
+│
+├── Katomaran_test_case.xlsx
+├── Defect_Report.docx
+├── Katomaran_QA.zip
+├── Automation_execution_report.zip
+└── README.md
+```
+
+
+---
+
+
+## Tools Used
+- Playwright
+- TypeScript
+- Visual Studio Code
+- Microsoft Excel
+- Microsoft Word
+
+
+---
+
+
+## Author
+
+**Balasurya G**
