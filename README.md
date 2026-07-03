@@ -64,9 +64,11 @@ npx playwright install
 ## How to Run the automation script
 
 ```bash
-npm install
-npm install @playwright/test
-choose the required options.
+To Create the packages and project structure
+
+npm init playwright@latest
+choose the required options. 
+Then the project structure will be created with node modules and packages.
 
 # Run all tests(//cross browser testing)
 npx playwright test --workers=1
