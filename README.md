@@ -11,6 +11,7 @@ QA Intern Technical Assignment for Tichi Web Application.
 ## Task 1: Manual Test Case Creation
 
 - Created **56 Manual Test Cases**
+- Test cases are written in seperate pages in the Excel sheet like: `Sign Up Test Cases` and `Login Test Cases`.
 - Tested Login and Sign Up functionalities
 - Covered form validation, input fields, navigation, error messages, password validation, browser behavior and different user scenarios.
 - Document: `Katomaran_test_case.xlsx`
