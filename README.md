@@ -73,6 +73,15 @@ Then the project structure will be created with node modules and packages.
 # Run all tests(//cross browser testing)
 npx playwright test --workers=1
 
+#Run a specific test
+npx playwright test testname.spec.ts
+
+#Run the test in specific browser engine
+npx playwright test testname.spec.ts --project=chromium 
+ (or)
+npx playwright test testname.spec.ts --project=firefox 
+ 
+
 # Run with browser visible
  1. Go to the playwright.config.ts
  2. Change: use: {
