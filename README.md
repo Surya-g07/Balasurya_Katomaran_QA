@@ -101,10 +101,10 @@ npx playwright show-report
 ```
 Project
 │
-├── Katomaran_test_case.xlsx
-├── Defect_Report.docx
-├── Katomaran_QA.zip
-├── Automation_execution_report.zip
+├── Task_1 Katomaran_test_case.xlsx
+├── Task_2 Defect_Report.docx
+├── Task_3 AutomationTesting_Katomaran.zip
+├── Task_4 Automation_execution_report.zip
 └── README.md
 ```
 
