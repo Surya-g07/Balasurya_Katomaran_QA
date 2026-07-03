@@ -57,9 +57,9 @@ npx playwright install
 
 
 ## Automation Execution Report
--Document:  `Automation_execution.report.zip`
--Verify the file for automation test report which covers the passed and failed tests.
--Download the zip file and click the index.html for the execution report.
+- Document:  `Automation_execution.report.zip`
+- Verify the file for automation test report which covers the passed and failed tests.
+- Download the zip file and click the index.html for the execution report.
 
 ## How to Run the automation script
 
