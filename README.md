@@ -31,17 +31,17 @@ QA Intern Technical Assignment for Tichi Web Application.
 - Automated 10 Test Cases using Playwright with TypeScript.
 - Included Login, Sign Up and Defect Validation scenarios.
 - 3 automation scripts were created to validate the reported defects.
-- Source Code: `Katomaran_QA.zip`
+- Source Code: `AutomationTesting_Katomaran.zip`
 - The Automation test scripts are seperated as:
-     1. Login/
+-      Login/
          |_Login page test files
-     2. Sign Up/
+       Sign Up/
          |_Sign up test files.
 
   
 ### Steps to Run the Test Scripts
 
-1. Download and extract the `Katomaran_QA.zip` file.
+1. Download and extract the `AutomationTesting_Katomaran.zip` file.
 2. Open the `Katomaran_QA` folder in Visual Studio Code or any IDE.
 3. Open the terminal in the project folder.
 4. Install the required packages:
